@@ -1,0 +1,25 @@
+{
+  "name": "a03-oapo1804",
+  "version": "1.0.0",
+  "description": "assignment 2",
+  "main": "./lib/roll.js",
+  "bin": {
+    "roll-dice": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "roll-dice --sides=10 --dice=2 --rolls=3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a03-oapo1804.git"
+  },
+  "author": "oapo1804",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a03-oapo1804/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a03-oapo1804#readme",
+  "dependencies": {
+    "minimist": "^1.2.7"
+  }
+}
